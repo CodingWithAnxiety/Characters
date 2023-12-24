@@ -1,6 +1,12 @@
 ---
-title: Welcome to Quartz
+title: Welcome to my page.
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started. [[pray]]
+This is a work in progress. Below should help display colors.
+
+```
+
+This is a cold block
+
+
+```
