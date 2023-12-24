@@ -3,41 +3,41 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Quartz 4.0",
+    pageTitle: "Codebecile's Characters",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "characters.codebecile.net",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
       typography: {
-        header: "Schibsted Grotesk",
+        header: "Playfair",
         body: "Source Sans Pro",
         code: "IBM Plex Mono",
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
+          light: "#FFFFFF",       // page background
+          lightgray: "#d683ac",   // borders
+          gray: "#9e4f76",        // graph links, heavier borders
+          darkgray: "#161717",    // body text
+          dark: "#8a104c",        // header text and icons
+          secondary: "#70063a",   // link colour, current graph
+          tertiary: "#83d6ad",    // hover states and visited graph nodes
+          highlight: "#b8b8b8",   // internal link background, highlighted text, highlighted lines of code
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
+          light: "#191528",
+          lightgray: "#5C162E",
+          gray: "#c7499d",
+          darkgray: "#ebccdb",
+          dark: "#de3c64",
+          secondary: "#cf2b54",
+          tertiary: "#2bcfa6",
+          highlight: "#110e1b",
         },
       },
     },
