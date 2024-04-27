@@ -9,10 +9,15 @@ section {
 
 a {    
     &.internal{
-        transition: background-color 0.5s ease;
+        transition: background-color 0.8s ease;
     }
 }
 
 *{
     transition: color 0.8s ease !important;    
+}
+
+code,
+.search {
+    transition: color 0.8s ease;
 }
