@@ -1,3 +1,18 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+body,
+section {
+    transition: background-color 1s ease !important;
+}
+
+a {    
+    &.internal{
+        transition: background-color 0.5s ease;
+    }
+}
+
+*{
+    transition: color 0.8s ease !important;    
+}

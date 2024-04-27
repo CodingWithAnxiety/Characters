@@ -27,22 +27,22 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#FFFFFF",       // page background
-          lightgray: "#d683ac",   // borders
-          gray: "#9e4f76",        // graph links, heavier borders
-          darkgray: "#161717",    // body text
-          dark: "#8a104c",        // header text and icons
-          secondary: "#70063a",   // link colour, current graph
-          tertiary: "#83d6ad",    // hover states and visited graph nodes
+          light: "#f7f2ed",       // page background
+          lightgray: "#c5b7d2",   // borders
+          gray: "#736680",        // graph links, heavier borders
+          darkgray: "#101a20",    // body text
+          dark: "#434353",        // header text and icons
+          secondary: "#4a007b",   // link colour, current graph
+          tertiary: "#125870",    // hover states and visited graph nodes
           highlight: "#b8b8b8",   // internal link background, highlighted text, highlighted lines of code
         },
         darkMode: {
           light: "#191528",
           lightgray: "#5C162E",
           gray: "#c7499d",
-          darkgray: "#ebccdb",
-          dark: "#de3c64",
-          secondary: "#cf2b54",
+          darkgray: "#f5e6ed",
+          dark: "#edaebd",
+          secondary: "#eb456e",
           tertiary: "#2bcfa6",
           highlight: "#110e1b",
         },
